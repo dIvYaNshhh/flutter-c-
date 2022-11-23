@@ -1,0 +1,3 @@
+[submodule "native_code"]
+	path = native_code
+	url = https://github.com/dIvYaNshhh/native_code.git
