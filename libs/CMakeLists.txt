@@ -3,6 +3,6 @@ project(api LANGUAGES CXX C)
 
 add_library(api
   SHARED
-  ./api.cpp
+  ../native_code/api.cpp
   exports.def
 )

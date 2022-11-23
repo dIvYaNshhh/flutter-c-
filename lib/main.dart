@@ -130,9 +130,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('capitalize flutter=${FFIBridge.capitalize('flutter')}',
+            Text('capitalize flutter=${FFIBridge.capitalize('divyansh')}',
                 style: TextStyle(fontSize: 40)),
-            Text('1+2=${FFIBridge.add(1, 2)}', style: TextStyle(fontSize: 40)),
+            Text('1+2=${FFIBridge.add(10, 2)}', style: TextStyle(fontSize: 40)),
             const Text(
               'You have pushed the button this many times:',
             ),
